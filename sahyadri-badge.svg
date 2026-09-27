@@ -1,0 +1,70 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="outerClip">
+      <circle cx="600" cy="600" r="570"/>
+    </clipPath>
+  </defs>
+
+  <!-- ===== Outer gold rim ===== -->
+  <circle cx="600" cy="600" r="590" fill="#C79A34"/>
+  <circle cx="600" cy="600" r="570" fill="#1B3A2E"/>
+
+  <!-- ===== Thin gold ring + cream text band ===== -->
+  <circle cx="600" cy="600" r="540" fill="none" stroke="#E4C273" stroke-width="4"/>
+  <circle cx="600" cy="600" r="430" fill="#FAF6EF"/>
+  <circle cx="600" cy="600" r="430" fill="none" stroke="#C79A34" stroke-width="6"/>
+  <circle cx="600" cy="600" r="404" fill="none" stroke="#5C3352" stroke-width="2"/>
+
+  <!-- ===== Small dot separators at 9 and 3 o'clock ===== -->
+  <circle cx="600" cy="600" r="485" fill="none" stroke="#E4C273" stroke-width="2" stroke-dasharray="2 14" opacity="0.85"/>
+  <circle cx="170" cy="600" r="9" fill="#E4C273"/>
+  <circle cx="1030" cy="600" r="9" fill="#E4C273"/>
+
+  <!-- ===== Curved text paths ===== -->
+  <path id="topArc" d="M 260,600 A 340,340 0 0,1 940,600" fill="none"/>
+  <path id="bottomArc" d="M 260,600 A 340,340 0 0,0 940,600" fill="none"/>
+
+  <text font-family="IBM Plex Mono, monospace" font-size="46" font-weight="500" fill="#1B3A2E" letter-spacing="6">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">SAHYADRI ANJEER ESTATE</textPath>
+  </text>
+  <text font-family="IBM Plex Mono, monospace" font-size="34" font-weight="500" fill="#5C3352" letter-spacing="5">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">PURANDAR &#8226; MAHARASHTRA</textPath>
+  </text>
+
+  <!-- ===== Fig leaf flourishes flanking the emblem ===== -->
+  <g fill="#6E7B4C" opacity="0.9">
+    <path d="M 600 730 C 520 720 450 760 430 830 C 500 840 520 800 540 770 C 545 810 530 850 500 880 C 560 875 600 830 600 780 Z" transform="translate(-330,-40) scale(0.85)"/>
+  </g>
+  <g fill="#6E7B4C" opacity="0.9" transform="translate(1200,0) scale(-1,1)">
+    <path d="M 600 730 C 520 720 450 760 430 830 C 500 840 520 800 540 770 C 545 810 530 850 500 880 C 560 875 600 830 600 780 Z" transform="translate(-330,-40) scale(0.85)"/>
+  </g>
+
+  <!-- ===== Center emblem: fig cross-section ===== -->
+  <g>
+    <circle cx="600" cy="530" r="185" fill="#5C3352"/>
+    <circle cx="600" cy="530" r="185" fill="none" stroke="#391F35" stroke-width="4"/>
+    <circle cx="600" cy="530" r="150" fill="none" stroke="#7A4468" stroke-width="3" opacity="0.8"/>
+    <circle cx="600" cy="530" r="118" fill="none" stroke="#8C5478" stroke-width="3" opacity="0.75"/>
+    <circle cx="600" cy="530" r="86" fill="none" stroke="#9E6488" stroke-width="3" opacity="0.7"/>
+    <circle cx="600" cy="530" r="54" fill="#C79A34"/>
+    <circle cx="600" cy="530" r="54" fill="none" stroke="#E4C273" stroke-width="3"/>
+    <!-- fig seeds -->
+    <g fill="#FAF6EF">
+      <circle cx="600" cy="530" r="7"/>
+      <circle cx="622" cy="540" r="6"/>
+      <circle cx="638" cy="518" r="6"/>
+      <circle cx="618" cy="500" r="6"/>
+      <circle cx="580" cy="502" r="6"/>
+      <circle cx="562" cy="522" r="6"/>
+      <circle cx="568" cy="548" r="6"/>
+      <circle cx="592" cy="558" r="6"/>
+      <circle cx="616" cy="558" r="6"/>
+    </g>
+  </g>
+
+  <!-- ===== Established line ===== -->
+  <text x="600" y="765" font-family="Playfair Display, serif" font-size="30" font-weight="600" fill="#1B3A2E" text-anchor="middle" letter-spacing="2">EST. 1994</text>
+  <line x1="520" y1="785" x2="680" y2="785" stroke="#C79A34" stroke-width="2"/>
+  <text x="600" y="815" font-family="IBM Plex Mono, monospace" font-size="22" font-weight="500" fill="#6E7B4C" text-anchor="middle" letter-spacing="4">PREMIUM ANJEER FIGS</text>
+
+</svg>
